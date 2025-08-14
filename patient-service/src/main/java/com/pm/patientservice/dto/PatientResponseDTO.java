@@ -1,5 +1,10 @@
 package com.pm.patientservice.dto;
 
+
+/*
+    Data Transfer Object for getting information back about a patient
+    Simple typings allow for the frontend to understand potentially complex types used by the Database
+ */
 public class PatientResponseDTO {
 
     private String id;

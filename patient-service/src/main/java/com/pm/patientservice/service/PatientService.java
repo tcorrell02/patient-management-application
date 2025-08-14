@@ -13,6 +13,9 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
 
+/*
+    Converts between DTOs and Domain Models via Mappers
+ */
 @Service
 public class PatientService {
 

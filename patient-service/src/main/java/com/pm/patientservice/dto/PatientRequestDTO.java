@@ -6,6 +6,11 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
+/*
+    Data Transfer Object for when creating/updating a patient
+    Used for enforcing validation and security requirements before reaching the Repository Layer
+    Simple typings allow for the frontend to understand potentially complex types used by the Database
+ */
 public class PatientRequestDTO {
 
     @NotBlank(message = "Name is required")

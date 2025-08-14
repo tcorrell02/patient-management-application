@@ -7,6 +7,10 @@ import jakarta.validation.constraints.NotNull;
 import java.time.LocalDate;
 import java.util.UUID;
 
+/*
+    Defines how Patients should be declared/organized in the database
+    Used by the Repository Layer
+ */
 @Entity
 public class Patient {
     @Id

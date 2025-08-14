@@ -6,6 +6,10 @@ import com.pm.patientservice.model.Patient;
 
 import java.time.LocalDate;
 
+/*
+    Used by the Service Layer
+    Converts between Models used by the Repository Layer and DTOs used by the Controller Layer
+ */
 public class PatientMapper {
     public static PatientResponseDTO toDTO (Patient patient) {
         PatientResponseDTO patientDTO = new PatientResponseDTO();

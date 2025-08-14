@@ -13,6 +13,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.UUID;
 
+/*
+    RESTful API Controller Layer for Patients
+    Handles HTTP Requests from the Frontend and sends HTTP Responses back
+    Sends Data Transfer Objects to the Service Layer and receives them back for processing
+ */
 @RestController
 @RequestMapping("/patients") //http://localhost:4000/patients
 public class PatientController {

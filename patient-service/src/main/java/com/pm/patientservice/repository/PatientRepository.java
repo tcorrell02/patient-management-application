@@ -6,6 +6,10 @@ import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 
+/*
+    Runs Queries on the Database
+    Uses Models to represent data both received and sent
+ */
 @Repository
 public interface PatientRepository extends JpaRepository<Patient, UUID> {
 

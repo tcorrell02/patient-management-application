@@ -11,6 +11,10 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+    Handles exceptions that the PatientController runs into
+    Sends back custom errors that more effectively diagnose issues
+ */
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
